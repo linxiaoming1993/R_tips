@@ -1,0 +1,2 @@
+# How should I deal with "package 'xxx' is not available (for R version x.y.z)" warning?
+install.packages("h2o", dependencies=TRUE, repos='http://mirrors.ustc.edu.cn/CRAN/')
